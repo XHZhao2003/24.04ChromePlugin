@@ -1,0 +1,74 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 400px;
+    min-height: 400px;
+    min-width: 400px;
+}
+
+.pathContainer {
+    width: 380px;
+    margin: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.pathContainer canvas {
+    width: 390px;
+}
+
+#repoContainer {
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+}
+
+.repo {
+    width: 380px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.repo div {
+    margin-left: 10px;
+    font-size: 15px;
+}
+.repo a {
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+
+#back {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 999;
+}
+
+#header {
+    position: relative;
+    top: 10px;
+    left: 60px;
+    font-size: 15px;
+    height: 50px;
+    width: 270px;
+}
+
+#repoHeader {
+    margin-left: 10px;
+    font-size: 15px;
+    height: 30px;
+    width: 270px;
+}
+
+
+

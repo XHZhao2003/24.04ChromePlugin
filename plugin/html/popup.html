@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="../css/popup.css">
+  <script src="../libs/jquery-3.5.1/jquery-3.5.1.min.js"></script>
+  <script src="../libs/bootstrap-4.6.1-dist/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="./libs/bootstrap-4.6.1-dist/css/bootstrap.min.css">
+</head>
+
+<body>
+  <div id="popup">
+    <div id="header">
+      <div id="hello" class="welcome" style="font-size: 30px;">
+        Hello
+      </div>
+      <div class="welcome">
+        欢迎使用学习路径推荐系统
+      </div>
+    </div>
+
+    <div id="selection">
+      <form>
+        <label for="catagory">
+          选择学习方向：</label>
+        <select id="catagory" name="catagory">
+          <option value="" disabled selected hidden>请选择</option>
+          <option value="0">前端开发</option>
+          <option value="1">后端开发</option>
+          <option value="2">全栈开发</option>
+          <option value="3">PC端开发</option>
+          <option value="4">移动端开发</option>
+        </select><br><br>
+      </form>
+
+      <div>
+        <button id="startButton">
+          Start
+        </button>
+      </div>
+
+    </div>
+
+    <div id="help">
+      <button id="helpButton">
+        ?
+      </button>
+    </div>
+
+  </div>
+
+  <div id="noUser">
+    <div>未找到Github用户</div>
+    <div>请在您的Github主页打开插件或刷新页面</div>
+  </div>
+  <script type="module" src="../js/popup.js"></script>
+</body>
+
+</html>
